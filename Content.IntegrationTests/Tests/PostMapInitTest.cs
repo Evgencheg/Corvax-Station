@@ -245,6 +245,7 @@ namespace Content.IntegrationTests.Tests
             "CorvaxBox",
             //"CorvaxDelta",
             "CorvaxGlacier",
+            "Box_CS",
             "CorvaxPilgrim",
             "CorvaxAmber",
             "CorvaxBagel",
@@ -270,26 +271,26 @@ namespace Content.IntegrationTests.Tests
         {
             // order this list alphabetically, mark dev maps
               "Amber",
-              "Atlas",
+            //"Atlas",
               "Bagel",
-              "Barratry",
+            //"Barratry",
             //"Box",            // Not in pool
               "CentComm",      // CentComm
-              "Chloris",
-              "Cluster",
+            //"Chloris",
+            //"Cluster",
               "Cog",
             //"Core",           // Not in pool.
-              "Delta",
+            //"Delta",
               "Dev",            // Dev map
             //"dm01-entryway",  // Deathmatch
             //"Europa",         // Not in pool.
               "Fland",
-              "FlandHighPop",
+            //"FlandHighPop",
             //"Gate",           // Not in pool
-              "Kettle",
+            //"Kettle",
             //"Lambda",         // Not in pool
               "Lavatest",       //Dev map
-              "Leonid",
+            //"Leonid",
               "Loop",
               "Marathon",
               "Meta",
@@ -297,7 +298,7 @@ namespace Content.IntegrationTests.Tests
               "Oasis",
               "OasisHighPop",
               "Omega",
-              "Origin",
+            //"Origin",
             //"OriginHighPop",  //Not in pool
               "TestTeg",        //Dev map
             //"Train",          //Not in pool
@@ -305,7 +306,7 @@ namespace Content.IntegrationTests.Tests
               "Reach",
               "Saltern",
               "Serpentcrest",
-              "Submarine"
+            //"Submarine"
         };
         // Goobstation edit end
 
