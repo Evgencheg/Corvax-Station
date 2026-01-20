@@ -54,7 +54,7 @@ public sealed class PoolTestLogHandler : ILogHandler
         if (ShuttingDown && (FailureLevel == null || level < FailureLevel))
             return;
 
-        // Corvax-Goob-Edit start - Как это ещё чинить, я не нашёл. Просто выдаёт рандомно варнинг а не ошибку с конфигом которые критуют
+        // Corvax-Goob-Edit start - I haven't found any other way to fix this. It just randomly gives warnings that cause crashes, not errors.
         if (sawmillName == "cfg" && message.MessageTemplate.Text.Contains("Cannot save the config file"))
         {
             return;
