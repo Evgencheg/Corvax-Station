@@ -214,12 +214,12 @@ namespace Content.IntegrationTests.Tests
               "Delta",
               "Dev",            // Dev map
               "dm01-entryway",  // Deathmatch
-              "Europa",
+              "Europa", // Not in pool.
               "Fland",
               "FlandHighPop",
-              "Gate",
+              "Gate", // Not in pool.
               "Kettle",
-              "Lambda",
+              "Lambda", // Not in pool.
               "Lavatest",       //Dev map
               "Leonid",
               "Loop",
