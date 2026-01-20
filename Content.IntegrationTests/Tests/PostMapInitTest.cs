@@ -202,26 +202,26 @@ namespace Content.IntegrationTests.Tests
             // order this list alphabetically, mark dev maps
             // if upstreaming take ours here and edit manually.
               "Amber",
-              //"Atlas", // Corvax-Goob-Maps-deleted
+              "Atlas",
               "Bagel",
-              //"Barratry", // Corvax-Goob-Maps-deleted
+              "Barratry",
               "Box",            // Not in pool
               "CentComm",       // CentComm
-              //"Chloris", // Corvax-Goob-Maps-deleted
-              //"Cluster", // Corvax-Goob-Maps-deleted
+              "Chloris",
+              "Cluster",
               "Cog",
               "Core",           // Not in pool.
-              //"Delta", // Corvax-Goob-Maps-deleted
+              "Delta",
               "Dev",            // Dev map
               "dm01-entryway",  // Deathmatch
-              //"Europa",         // Not in pool. // Corvax-Goob-Maps-deleted
+              "Europa",
               "Fland",
-              //"FlandHighPop", // Corvax-Goob-Maps-deleted
-              //"Gate",           // Not in pool // Corvax-Goob-Maps-deleted
-              //"Kettle", // Corvax-Goob-Maps-deleted
-              //"Lambda",         // Not in pool // Corvax-Goob-Maps-deleted
+              "FlandHighPop",
+              "Gate",
+              "Kettle",
+              "Lambda",
               "Lavatest",       //Dev map
-              //"Leonid", // Corvax-Goob-Maps-deleted
+              "Leonid",
               "Loop",
               "Marathon",
               "Meta",
@@ -229,7 +229,7 @@ namespace Content.IntegrationTests.Tests
               "Oasis",
               "OasisHighPop",
               "Omega",
-              //"Origin", // Corvax-Goob-Maps-deleted
+              "Origin",
               "OriginHighPop",  //Not in pool
               "TestTeg",        //Dev map
               "Train",          //Not in pool
@@ -237,29 +237,29 @@ namespace Content.IntegrationTests.Tests
               "Reach",
               "Saltern",
               "Serpentcrest",
-              //"Submarine", // Corvax-Goob-Maps-deleted
+              "Submarine",
             // Goob end
 
             // Corvax-Goob-Maps-start
             "CorvaxAstra",
             "CorvaxBox",
-            //"CorvaxDelta",
+            "CorvaxDelta",
             "CorvaxGlacier",
             "Box_CS",
             "CorvaxPilgrim",
             "CorvaxAmber",
             "CorvaxBagel",
-            //"CorvaxMarathon",
+            "CorvaxMarathon",
             "CorvaxMascara",
             "CorvaxOutpost",
             "CorvaxPaper",
-            //"CorvaxPearl",
+            "CorvaxPearl",
             "CorvaxVoid",
             "CorvaxMaus",
             "CorvaxOmega",
             "CorvaxPacked",
             "CorvaxTushkan",
-            //"CorvaxAvrite",
+            "CorvaxAvrite",
             "CorvaxAwesome",
             "CorvaxChloris",
             "CorvaxSilly",
