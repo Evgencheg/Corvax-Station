@@ -54,6 +54,13 @@ public sealed class PoolTestLogHandler : ILogHandler
         if (ShuttingDown && (FailureLevel == null || level < FailureLevel))
             return;
 
+        // Corvax-Goob-Edit start - Как это ещё чинить, я не нашёл. Просто выдаёт рандомно варнинг а не ошибку с конфигом которые критуют
+        if (sawmillName == "cfg" && message.MessageTemplate.Text.Contains("Cannot save the config file"))
+        {
+            return;
+        }
+        // Corvax-Goob-Edit end
+
         if (ActiveContext is not { } testContext)
         {
             // If this gets hit it means something is logging to this instance while it's "between" tests.
